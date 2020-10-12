@@ -21,6 +21,7 @@ group :jekyll_plugins do
   # custom plugins
   gem 'jekyll-seo-tag'
   gem 'jekyll-archives'
+  gem 'jekyll-paginate'
 
 end
 
