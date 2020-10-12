@@ -11,7 +11,7 @@ title: Home
 <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_long_string: "ordinal", "US" }}
 </time>
 
-{{ post.content | smartify }}
+{{ post.content }}
 
 </article>
 {% endfor %}
@@ -19,10 +19,10 @@ title: Home
 
 <div class="PageNavigation">
 {% if paginator.next_page %}
-<a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl }}">← Older</a>
+<a class="prev" href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older posts</a>
 {% endif %}
 {% if paginator.previous_page %}
-<a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer →</a>
+<a class="next" href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer posts</a>
 {% endif %}
 </div>
 
