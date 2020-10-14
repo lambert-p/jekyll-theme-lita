@@ -2,15 +2,38 @@
 body {
     height: 100%;
     max-height: 100%;
-
-    font-size: 18px;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    
     font-family: 'Open Sans', sans-serif;
-    font-size: 1.7em;
+    font-size: 1em;
     line-height: 1.6em;
     color: #24292e;
     background-color: #fff;
 }
 
+.home {
+    width: 90%;
+}
 .banner {
     margin: 10px 0px 30px 0px;
+}
+
+.content {
+    width: 70%;
+    float: right;
+}
+
+.sidebar {
+    width: 25%;
+    float: left;
+}
+
+@media (max-width: 768px) {
+    .content, 
+    .sidebar {
+        width: auto;
+        float: none;
+    }
 }
