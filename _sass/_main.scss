@@ -23,7 +23,7 @@ body {
     padding: 20px 0;
     max-width: 1000px;
     margin: 0 auto;
-    background-color: #FFF000;
+    // background-color: #FFF000;
 }
 
 .blog-logo {
@@ -47,6 +47,21 @@ body {
 .content {
     width: 70%;
     float: right;
+
+    h2 {
+        margin: 0;
+        padding: 0;
+
+        color: #ACACAC;
+        font-size: 1em;
+    }
+
+    h1 {
+        margin: 0;
+        padding: 0;
+        letter-spacing: -2px;
+        text-indent: -3px;
+    }
 }
 
 .sidebar {
@@ -58,8 +73,6 @@ body {
         margin-top: 0;
     }
 }
-
-
 
 @media (max-width: 768px) {
     .content,
