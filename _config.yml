@@ -6,6 +6,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://github.com/lambert-p/jekyll-theme-lita" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lambert-p
 
+permalink: /:title/
+
 paginate: 5
 paginate_path: "/blog/:num/"
 
